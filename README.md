@@ -55,3 +55,30 @@
 15) Repita o script anterior mas passe o diretório e as extensões por linha de comando/parâmetro.
 [script15.sh](https://github.com/pauloh-alc/some-shell-scripts/blob/main/script15.sh)
 
+16) Escreva um script para listar todos os arquivos de um determinado diretório (passado via linha de comando) mas no seguinte formato:
+
+- 1: nome a
+- 2: nome b
+[script16.sh](https://github.com/pauloh-alc/some-shell-scripts/blob/main/script16.sh)
+
+17) Escreva um script capaz de dizer o número de linhas num arquivo (passado via linha de comando) e o número de palavras. O comando wc pode ajudar.
+[script17.sh](https://github.com/pauloh-alc/some-shell-scripts/blob/main/script17.sh)
+
+18) Desenvolva um script que receba um número como parâmetro e vá imprimindo na tela uma contagem regressiva até chegar a zero, imprimindo a contagem na tela a cada um segundo (use o comando sleep para esperar.) 
+[script18.sh](https://github.com/pauloh-alc/some-shell-scripts/blob/main/script18.sh)
+
+19) Mostra na tela todos os parâmetros recebidos na linha de comando (podem ser mais de 9, logo o shift será necessário), imprimindo-os como a seguir:
+[script19.sh](https://github.com/pauloh-alc/some-shell-scripts/blob/main/script19.sh)
+
+20) Crie um script para mostrar (cat) todos os usuários cadastrados no sistema (/etc/passwd) ordenados em ordem alfabética.
+[script20.sh](https://github.com/pauloh-alc/some-shell-scripts/blob/main/script20.sh)
+
+21) Um dos parâmetros de cada linha (/etc/passwd) é o shell usado pelo usuário (o sétimo campo). Escreva um programa capaz de listar todos os shells únicos existentes no passwd. O programa uniq pode ser útil.
+[script21.sh](https://github.com/pauloh-alc/some-shell-scripts/blob/main/script21.sh)
+
+22) Crie um pequeno script de backup capaz de receber um nome de diretório a ser compactado e também um nome de diretório onde o arquivo com backup será armazenado. O nome do arquivo de backup deve ser seguir o formato “BKP-AAAA-MM-DD.tar.gz”. Use o comando tar para fazer a criação do backup. Inclua testes para determinar se os diretórios de origem realmente existem.
+[script22.sh](https://github.com/pauloh-alc/some-shell-scripts/blob/main/script22.sh)
+
+23) Crie um script que utilize um laço para criar 10 diretórios com o nome padrão dir<n>, onde n é o número a ser adicionado ao nome do diretório. Dentro de cada diretório crie 5 arquivos com o padrão file<m>, onde m é o número a ser adicionado ao nome do arquivo.
+[script23.sh](https://github.com/pauloh-alc/some-shell-scripts/blob/main/script23.sh)
+
